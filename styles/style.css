@@ -251,7 +251,6 @@
 .person_name_feynman {
   top: -30px;
   left: 319px;
-  position: absolute;
 }
 
 .person_name_burbidge {
@@ -294,4 +293,131 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+}
+
+.step {
+  display: flex;
+  flex-basis: 220px;
+  flex-wrap: wrap;
+  align-self: baseline;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #000000;
+  color: white;
+  padding: 60px 80px;
+  font-family: Arial, sans-serif;
+}
+
+.footer__content {
+  display: flex;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 80px;
+  width: 100%;
+}
+
+.footer__column_content_hours {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__column-heading {
+  display: flex;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.footer__list-item {
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  row-gap: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 10px;
+  column-gap: 10px;
+}
+
+.footer__copyright {
 }
